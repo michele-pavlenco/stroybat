@@ -1,0 +1,35 @@
+.cards-services {
+  width: 100%;
+  overflow-y: scroll;
+  /* background-color: red; */
+  padding: 30px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card-services {
+  height: 200px;
+  width: 47%;
+  overflow: hidden;
+  font-size: 11px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  border: 3px solid black;
+  border-radius: 20px 0px 20px 30px;
+  background-color: black;
+  color: white;
+}
+.card-services img {
+  background-size: contain;
+  width: 40%;
+}
+.card-services-text {
+  width: 60%;
+  padding: 5px;
+  overflow-y: scroll;
+}
+.card-services-text span {
+  font-size: 14px;
+  font-weight: bold;
+}
