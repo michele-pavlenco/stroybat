@@ -1,6 +1,6 @@
 .mentions-container {
   height: 100vh;
-  width: 1005;
+  width: 100%;
   background: linear-gradient(var(--black), rgb(11, 17, 21));
   color: white;
   padding: 50px;

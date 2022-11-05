@@ -21,7 +21,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 35px;
 }
 .title img {
   width: 50px;
@@ -105,4 +104,21 @@ nav a {
   background-color: var(--white);
   color: var(--black);
   border: 1px solid var(--black);
+}
+@media screen and (max-width: 815px) {
+  .nav-container ul li {
+    display: inline;
+    padding: 5px 5px;
+    font-size: 15px;
+  }
+  .nav-container {
+    height: 70px;
+  }
+  .title h1 {
+    font-size: 30px;
+  }
+  .title .img-title {
+    width: 30px;
+    margin-bottom: 20px;
+  }
 }

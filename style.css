@@ -9,9 +9,9 @@
   --black: #000000;
   --white: #ffffff;
 }
-.debug {
+/* .debug {
   border: 1px solid yellowgreen;
-}
+} */
 /* Title */
 .title-overlay {
   position: absolute;
