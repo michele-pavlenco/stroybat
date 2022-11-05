@@ -21,7 +21,7 @@
   color: white;
 }
 .card-services img {
-  background-size: contain;
+  background-size: cover;
   width: 40%;
 }
 .card-services-text {
@@ -32,4 +32,13 @@
 .card-services-text span {
   font-size: 14px;
   font-weight: bold;
+}
+@media screen and (max-width: 815px) {
+  .card-services {
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+    font-size: 11px;
+    margin: 10px;
+  }
 }
