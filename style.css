@@ -91,12 +91,14 @@ nav a:hover {
 }
 /* slider */
 .slider img {
-  object-fit: cover;
+  object-fit: contain;
   padding: 20px;
-  /* height: calc(100vh - 210px); */
+  height: calc(100vh - 210px);
   width: 100%;
 }
 .slider {
+  overflow: hidden;
+  /* height: calc(100vh - 210px); */
   overflow: hidden;
 }
 
