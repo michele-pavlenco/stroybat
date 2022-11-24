@@ -250,3 +250,24 @@ ul p {
     margin-bottom: 20px;
   }
 }
+
+/* .solutions div {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background-color: green;
+  color: white;
+}
+
+.solutions a {
+  color: white;
+  border: white solid 2px;
+  border-radius: 5px;
+  text-align: center;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: ;
+} */
